@@ -1,0 +1,119 @@
+*{
+    height: auto;
+    margin-top: 40px;
+    word-wrap: normal;
+}
+body{
+    width: 90%;
+    background: linear-gradient(to right, rgb(252, 238, 240), rgb(202, 167, 202));
+}
+
+h1 {
+    font-size: 5vw;
+    color:#000000;
+    font-weight: 600;
+    padding: 50px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 3.5vw;
+    color:  #000000;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 10px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2.5vw;
+    color: #000000;
+    font-family: 'Dancing Script', cursive;
+    padding: 20px;
+    font-weight: 600;
+}
+
+a {
+    background-color: rgb(240, 207, 213);
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    border: 5px outset rgb(240, 220, 224);
+    transition-duration: .3s;
+    border-radius: 50%;
+    margin: 5px;
+    width: 40%;
+    font-size: 1.5vw;
+}
+.navbar {
+    flex-direction: row;
+    overflow: hidden;
+    background-color: rgb(240, 219, 222);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    padding: 0%;
+    opacity: 100%;
+    border-radius: 0%;
+    font-size: 1.5vw;
+    background-color: rgb(240, 219, 222);
+    border: none;
+    display: flex;
+    float: left;
+    flex-direction: row;
+}
+
+div.header {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 0;
+}
+
+
+.othersites {
+    opacity: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.othersites img {
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+.othersites a {
+    border: none;
+    background: none;
+}
+
+.slime {
+    text-align: justify;
+    width: 510px;
+    border: rgb(247, 216, 226) 90px outset;
+    background-color: rgb(247, 216, 226);
+    color: #000000;
+    text-align: center;
+    font-size: 1.9vw;
+}
