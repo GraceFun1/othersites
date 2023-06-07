@@ -19,23 +19,6 @@ h1 {
     margin-top: 40px;
 }
 
-h2 {
-    font-size: 3.5vw;
-    color:  #000000;
-    font-family: 'Dancing Script', cursive;
-    padding-left: 10px;
-    padding: 20px;
-    font-weight: 600;
-}
-
-h3 {
-    font-size: 2.5vw;
-    color: #000000;
-    font-family: 'Dancing Script', cursive;
-    padding: 20px;
-    font-weight: 600;
-}
-
 a {
     background-color: rgb(240, 207, 213);
     color: #fff;
@@ -48,9 +31,9 @@ a {
     margin: 5px;
     width: 40%;
     font-size: 1.5vw;
+    flex-direction: row;
 }
 .navbar {
-    flex-direction: row;
     overflow: hidden;
     background-color: rgb(240, 219, 222);
     position: fixed;
@@ -62,8 +45,6 @@ a {
     justify-content: space-between;
     flex-grow: 1;
     flex-direction: row;
-    text-align: center;
-    justify-content: center;
 }
 
 .navbar a {
@@ -116,4 +97,8 @@ div.header {
     color: #000000;
     text-align: center;
     font-size: 1.9vw;
+}
+
+.links {
+    flex-grow: .1;
 }
