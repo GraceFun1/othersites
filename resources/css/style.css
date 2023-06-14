@@ -120,6 +120,7 @@ div.header {
     }
     h1 {
         font-size: 2.9rem;
+        text-align: center;
     }
     p {
         font-size: 1rem;
@@ -128,10 +129,18 @@ div.header {
         font-size: 1rem;
     }
     a {
-        font-size: .96rem;
+        font-size: 2rem;
     }
     .image-container {
         width: 100%;
         height: auto;
+    }
+    .slime {
+        border: none;
+        display: flex;
+        width: 90%;
+    }
+    img {
+        width: 0;
     }
 }
